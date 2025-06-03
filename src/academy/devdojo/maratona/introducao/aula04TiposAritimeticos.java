@@ -25,5 +25,13 @@ public class aula04TiposAritimeticos {
         System.out.println("igual a vinte "+isDezIgualVinte);
         System.out.println("diferente de dez "+isDezDiferenteDez);
 
+        int idade = 29;
+        float salario = 3500;
+        boolean isDentroDaLeiMaiorQueTrinta = idade >= 30 && salario > 4612;
+        boolean isDentroDaLeiMenorQueTrinta = idade < 30 && salario >= 3381;
+
+        System.out.println(isDentroDaLeiMaiorQueTrinta);
+        System.out.println(isDentroDaLeiMenorQueTrinta);
+
     }
 }
