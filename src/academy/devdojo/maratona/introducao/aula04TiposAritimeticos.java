@@ -33,5 +33,12 @@ public class aula04TiposAritimeticos {
         System.out.println(isDentroDaLeiMaiorQueTrinta);
         System.out.println(isDentroDaLeiMenorQueTrinta);
 
+        double valorTotalContaCorrente = 200;
+        double valorTOtalContaPoupanca = 10000;
+        float valorPlaystation = 5000F;
+        boolean  isPlayStationCincoCompravel = valorTotalContaCorrente > valorPlaystation || valorTOtalContaPoupanca > valorPlaystation;
+
+        System.out.println("Plastation é compravel: " + isPlayStationCincoCompravel);
+
     }
 }
